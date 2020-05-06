@@ -25,6 +25,7 @@
 *   Fixes unintentional overriding of user-specified setup.py file for Dataflow
     jobs when running on KFP container.
 *   Depends on `frozendict>=1,<2`.
+*   Made ComponentSpec().inputs and .outputs behave more like real dictionaries.
 
 ### Deprecations
 
